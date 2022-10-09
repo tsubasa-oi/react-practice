@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { ColorfulMessage } from "./components/ColorfulMessage";
 
 const App = () => {
-  console.log("さいしょ");
   const [num, setNum] = useState(0);
   const [faceShowFlag, setFaceShowFlag] = useState(false);
 
